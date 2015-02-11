@@ -1,0 +1,22 @@
+{
+  "name": "angularApp",
+  "version": "1.0.0",
+  "description": "Angular App",
+  "main": "Grunt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohmmho/angularApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohmmho/angularApp/issues"
+  },
+  "homepage": "https://github.com/ohmmho/angularApp",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
