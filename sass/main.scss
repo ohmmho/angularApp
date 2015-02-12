@@ -1,8 +1,41 @@
-$color: #ff00ff;
+$color:#f65438;
 
 body {
   p{
     font-weight:bold;
     color: $color;
   }
+  .btn-yes {
+    border-color:#f65438;
+    background-color: #f65438 !important;
+    color:#fff;
+  }
+  .btn-nope {
+    border-color:#f65438;
+    background-color: #fff !important;
+    color:#f65438;
+  }
+}
+
+
+.thumbnail{
+  left:0;
+}
+#text-colorgrey {
+  color: #b2b2b2;
+}
+
+.colored {
+  color: #f65438;
+}
+
+.thumb-border {
+  padding: 10px;
+  border-color:#f65438;
+
+}
+
+.thumb-absolute {
+  position: absolute;
+
 }

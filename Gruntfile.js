@@ -11,7 +11,7 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
-          'build/main.min.js': ['javascript/*.js', 'bower_components/bower-tinder-js/*.js']
+          'build/main.min.js': ['javascript/*.js', 'bower_components/tinder-js-byohmmho/*.js']
         }
       }
     },
@@ -59,6 +59,5 @@ module.exports = function(grunt) {
 
   // Custom tasks
   grunt.registerTask('deploy', ['gh-pages']);
-  grunt.registerTask('build', ['processhtml']);
-  grunt.registerTask('default', ['uglify', 'sass', 'copy']);
+  grunt.registerTask('default', ['uglify', 'sass', 'copy', 'processhtml']);
 };
